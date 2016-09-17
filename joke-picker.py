@@ -1,3 +1,7 @@
+'''
+joke-picker.py v1.0
+by Apollo Fernandes
+'''
 import random
 import json
 
