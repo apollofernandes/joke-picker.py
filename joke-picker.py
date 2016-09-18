@@ -1,9 +1,8 @@
 '''
-joke-picker.py v1.0
+joke-picker.py v1.1
 by Apollo Fernandes
 '''
-import random
-import json
+import random, json
 
 def tell_a_joke():
     with open('Jokes.json') as data_file:    
