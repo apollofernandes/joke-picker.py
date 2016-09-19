@@ -1,5 +1,5 @@
 '''
-joke-picker.py v1.1
+joke-picker.py v1.2
 by Apollo Fernandes
 '''
 import random, json
@@ -31,7 +31,7 @@ def main():
                 print "Great."
                 jokes_told = jokes_told + 1
                 continue
-            if did_you_like_the_joke == "No" or did_you_like_the_joke == "n" or did_you_like_the_joke == "N" or did_you_like_the_joke == "no":
+            elif did_you_like_the_joke == "No" or did_you_like_the_joke == "n" or did_you_like_the_joke == "N" or did_you_like_the_joke == "no":
                 print "I'm sorry. I'll try to give you a better joke next time."
                 jokes_told = jokes_told + 1
                 continue
