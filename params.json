@@ -1,0 +1,6 @@
+{
+  "name": "Joke-picker.py",
+  "tagline": "",
+  "body": "# Joke-picker.py\r\n## What is it\r\nThis is a joke picker that picks a random joke from Jokes.json and gives it to the user.\r\n### What libraries does it use?\r\nIt uses 2 libraries, random and json.\r\n### What programming language does it use?\r\nIt uses the programming language Python3.\r\n### How much does it cost?\r\nIt is free.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
