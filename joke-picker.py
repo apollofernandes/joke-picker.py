@@ -27,7 +27,7 @@ def main():
             choice = input("Would you like to hear a joke?: ")
         if "Y" in choice or "y" in choice:
             tell_a_joke()
-            did_you_like_the_joke = raw_input("Did you like the joke?: ")
+            did_you_like_the_joke = input("Did you like the joke?: ")
             if did_you_like_the_joke == "Yes" or did_you_like_the_joke == "y" or did_you_like_the_joke == "Y" or did_you_like_the_joke == "yes":
                 print("Great.")
                 jokes_told = jokes_told + 1
