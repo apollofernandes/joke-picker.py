@@ -5,4 +5,3 @@ To install this program, you have to download both joke-picker.py and Jokes.json
 You can not have only one of these files. You also need Python3 to run the Program.
 
 
-Apollo Fernandes 2016
