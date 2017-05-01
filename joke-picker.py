@@ -38,7 +38,10 @@ def main():
 
                 continue
         else:
-            print( "You have heard " + str(jokes_told) + " jokes!" )
+            if jokes_told == 1:
+                print("You have heard " + str(jokes_told) + " joke!")
+            else:
+                print("You have heard " + str(jokes_told) + " jokes!")
             print("Goodbye!")
             break
 
