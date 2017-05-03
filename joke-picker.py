@@ -1,21 +1,25 @@
 '''
-joke-picker.py v3.0
+joke-picker.py v3.1
 by Apollo Fernandes
 Made in Python3
 '''
 import random, json
 
 def tell_a_joke():
-    with open('Jokes.json') as data_file:
-        jokes = json.load(data_file)
+    try:
+        with open('Jokes.json') as data_file:
+            jokes = json.load(data_file)
 
-    numJokes = len( jokes[ "jokes" ] )
+            numJokes = len( jokes[ "jokes" ] )
 
-    chosenJokeNum = random.randint( 0, (numJokes - 1 ) )
+            chosenJokeNum = random.randint( 0, (numJokes - 1 ) )
 
-    randomjoke = jokes[ "jokes" ][ chosenJokeNum ][ "joke" ]
+            randomjoke = jokes[ "jokes" ][ chosenJokeNum ][ "joke" ]
 
-    print(randomjoke)
+            print(randomjoke)
+    except:
+        print("Sorry no Jokes.json file found.")
+        quit()
 
 def main():
     jokes_told = 0
