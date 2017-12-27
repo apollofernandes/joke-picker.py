@@ -1,5 +1,5 @@
 '''
-joke-picker.py v3.6
+joke-picker.py v4	
 by Apollo Fernandes
 Made in Python3
 '''
@@ -46,6 +46,8 @@ def main():
                 print("You have heard " + str(jokes_told) + " joke!")
             else:
                 print("You have heard " + str(jokes_told) + " jokes!")
+            if jokes_told > 4:
+                	print("That is a lot of jokes!")
             print("Goodbye!")
             break
 
