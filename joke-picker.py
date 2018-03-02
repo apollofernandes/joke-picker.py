@@ -1,5 +1,5 @@
 '''
-joke-picker.py v4	
+joke-picker.py v4.2	
 by Apollo Fernandes
 Made in Python3
 '''
